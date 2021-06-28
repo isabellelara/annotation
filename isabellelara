@@ -1,0 +1,12 @@
+#https://github.com/AswinVasudevan21/deephealth-annotate.git
+#brew install node 
+
+rm - rf /usr/local/lib/node_modules
+
+brew uninstall node
+brew prune
+brew update
+
+brew install node --without-npm
+
+brew install yarn
